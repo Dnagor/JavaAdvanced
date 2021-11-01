@@ -1,4 +1,4 @@
-package homework;
+package lesson1;
 
 import java.util.Set;
 import java.util.TreeSet;

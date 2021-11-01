@@ -1,4 +1,4 @@
-package homework;
+package lesson1;
 
 public enum Days {
     MONDAY,

@@ -1,4 +1,4 @@
-package homework;
+package lesson1;
 
 public class Movie {
     protected String title;
