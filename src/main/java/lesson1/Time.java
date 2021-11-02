@@ -1,5 +1,7 @@
 package lesson1;
 
+import java.util.Objects;
+
 public class Time {
     protected int minutes;
     protected int hour;
@@ -25,8 +27,21 @@ public class Time {
     }
 
     public Time(int hour,int minutes) {
-        this.minutes = minutes;
-        this.hour = hour;
+        setMinutes(minutes);
+        setHour(hour);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Time)) return false;
+        Time time = (Time) o;
+        return minutes == time.minutes && hour == time.hour;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(minutes, hour);
     }
 
     @Override
