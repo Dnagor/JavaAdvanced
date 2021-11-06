@@ -1,0 +1,12 @@
+2021-11-06 17:45:51 INFO  ConnectionUtils:17 - Establishing connection to database
+2021-11-06 17:45:52 INFO  CityDAO:27 - Reading all information from City table.
+2021-11-06 17:45:52 INFO  CityDAO:48 - Inserting City{id=0, name='AAA', countryCode='ABW', district='BBB', population=5} to City table.
+2021-11-06 17:45:52 INFO  CityDAO:58 - Updating City table with City{id=0, name='AAA', countryCode='ABW', district='BBB', population=100000}
+2021-11-06 17:45:52 INFO  CityDAO:39 - Reading infromation from City table by name: AAA
+2021-11-06 17:45:52 INFO  CityDAO:66 - Deleting from city table by name: AAA
+2021-11-06 17:45:52 INFO  ConnectionUtils:17 - Establishing connection to database
+2021-11-06 17:45:52 INFO  CityDAO:33 - Reading all information from CounryLangyage table.
+2021-11-06 17:45:52 INFO  CityDAO:62 - Inserting inro CountryLanguage table: CountryLanguage{countryCode='ABW', language='AAAAAA', isOfficial=T, percentage=100.0}
+2021-11-06 17:45:52 INFO  CityDAO:77 - Updating CountryLanguage table with CountryLanguage{countryCode='ABW', language='Dutch', isOfficial=T, percentage=50.3}
+2021-11-06 17:45:52 INFO  CityDAO:48 - Reading from CountryLanguage table by code: ABW
+2021-11-06 17:45:52 INFO  CityDAO:91 - Deleting from CountryLanguage table by code: ABW
